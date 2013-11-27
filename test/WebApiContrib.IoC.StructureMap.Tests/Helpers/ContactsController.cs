@@ -18,7 +18,7 @@ namespace WebApiContrib.IoC.StructureMap.Tests.Helpers
 
         public HttpResponseMessage Post(List<Contact> contacts)
         {
-            Debug.WriteLine(String.Format("POSTed Contacts: {0}", contacts.Count));
+            Debug.WriteLine("POSTed Contacts: {0}", contacts.Count);
 
             var response = new HttpResponseMessage
                                {
